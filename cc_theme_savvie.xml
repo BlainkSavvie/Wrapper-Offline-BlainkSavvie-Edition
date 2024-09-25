@@ -1,0 +1,2271 @@
+<!--This XML file is a carbon copy of cc_theme in the original Wrapper Offline package, except it has been rearranged to enable custom assets, feelings, and movements. Comments are also being included to indicate my revisions to the original cc_theme file.-->
+<cc_theme_savvie id="family" studio_theme_id="custom" name="Family Guy" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <!--SECTION 1: COLOR ATTRIBUTES-->
+    <!--This file starts with color customization of character attributes.-->
+    <!--Skin color attributes and selections-->
+    <color r="ccSkinColor" oc="0xFFE1C4" component_type="bodyshape" enable="Y">
+		<choice>0xFFEDE3</choice>
+		<choice>0xFFCE95</choice>
+		<choice>0xFEBD9D</choice>
+		<choice>0xF3DC10</choice>
+		<choice>0xC8920F</choice>
+		<choice>0xE9A352</choice>
+		<choice>0xCA9050</choice>
+		<choice>0x723312</choice>
+	</color>
+    <!--Eyelid attributes and selections-->
+    <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="Y">
+		<choice>0xFFD1BF</choice>
+		<choice>0xFFA266</choice>
+		<choice>0xFD8E6D</choice>
+		<choice>0xDF732F</choice>
+		<choice>0xEBB406</choice>
+		<choice>0xBF6305</choice>
+		<choice>0xC1612D</choice>
+		<choice>0x4B0156</choice>
+	</color>
+    <!--Eye pupil attributes and selections-->
+	<color r="ccEyeIris" component_type="eye" enable="Y">
+		<choice>0x988986</choice>
+		<choice>0x7892C6</choice>
+		<choice>0x229188</choice>
+		<choice>0x963923</choice>
+		<choice>0x7D551C</choice>
+		<choice>0x423105</choice>
+		<choice>0x480808</choice>
+		<choice>0x000000</choice>
+	</color>
+    <!--Pause Section 1 for now.-->
+
+    <!--SECTION 2: FEELINGS-->
+    <!--Adored-->
+    <!--Angry-->
+    <!--Annoyed-->
+    <facial id="head_annoyed" name="Annoyed" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="sick" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="sad" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Asleep-->
+    <!--Chewing-->
+    <!--Chewing happy-->
+    <!--Cry-->
+    <!--Disgusted-->
+    <!--Evil-->
+    <facial id="head_evil" name="Evil" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="angry" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="default" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Furious-->
+    <facial id="head_furious" name="Furious" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="shock" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="angry" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Happy-->
+    <!--Laugh 1-->
+    <!--Laugh 2-->
+    <facial id="head_laugh2" name="Laugh 2" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="angry" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="laugh" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Laugh 3-->
+    <facial id="head_laugh3" name="Laugh 3" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="shock" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="laugh" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Laugh 4-->
+    <facial id="head_laugh4" name="Laugh 4" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="cry" />
+		<selection type="eyebrow" state_id="cry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="laugh" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Laugh 5-->
+    <facial id="head_laugh5" name="Laugh 5" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="shock" />
+		<selection type="eyebrow" state_id="surprised" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="laugh" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Nervous-->
+    <!--Neutral-->
+    <!--Open wide-->
+    <facial id="head_openwide" name="Open Wide" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="default" />
+		<selection type="eyebrow" state_id="default" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="yawn" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Sad-->
+    <!--Scheming 1-->
+    <!--Scheming 2-->
+    <facial id="head_schemeing2" name="Scheming 2" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="schemeing" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="schemeing" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Scheming 3-->
+    <facial id="head_schemeing3" name="Scheming 3" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="shock" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="surprised" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Shocked 1-->
+    <!--Shocked 2-->
+    <!--Sick-->
+    <!--Snub-->
+    <facial id="head_snub" name="Snub" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="asleep" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="angry" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Surprised-->
+    <!--Talk angry-->
+    <!--Talk happy-->
+    <!--Talk neutral 1-->
+    <!--Talk neutral 2-->
+    <!--Talk sad-->
+    <!--Talk while crying-->
+    <!--Taunt-->
+    <facial id="head_taunt" name="Taunt" enable="Y">
+		<selection type="beard" state_id="default" />
+		<selection type="ear" state_id="default" />
+		<selection type="eye" state_id="angry" />
+		<selection type="eyebrow" state_id="angry" />
+		<selection type="facedecoration" state_id="default" />
+		<selection type="faceshape" state_id="default" />
+		<selection type="glasses" state_id="default" />
+		<selection type="hair" state_id="default" />
+		<selection type="mouth" state_id="taunt" />
+		<selection type="mustache" state_id="default" />
+		<selection type="nose" state_id="default" />
+	</facial>
+    <!--Thinking-->
+    <!--Yawn-->
+
+    <!--SECTION 3: ADAM-->
+	<bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="male">
+		<!--Adam's default character-->
+        <default_char>
+			<color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
+			<color r="ccEyeLib">0xFFCE95</color>
+			<color r="ccEyeIris">0x000000</color>
+			<color r="ccGlassesFrame">0xBE10B0</color>
+			<color r="ccGlassesLens">0x737373</color>
+			<color r="ccMouthLip">0x891258</color>
+			<color r="ccMustache">0x000000</color>
+			<color r="ccBeard">0xFFFFFF</color>
+			<color r="ccEyebrow">0x996633</color>
+			<color r="ccHairMajor">0x996633</color>
+			<color r="ccHairMinor">0x640F0F</color>
+			<color r="ccUpperMain" oc="0x336699">0x993333</color>
+			<color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color>
+			<color r="ccLowerMain" oc="0xCCBC9A">0xCC9966</color>
+			<color r="ccLowerMinor" oc="0xEEEEEE">0xFFFFFF</color>
+			<component type="ear" component_id="006" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="upper_body" component_id="adam_005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="50" gopoints="0"/>
+			<component type="lower_body" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="40" gopoints="0"/>
+			<component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="hair" component_id="008" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="eye" component_id="004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="eyebrow" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="nose" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<component type="mouth" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		</default_char>
+        <!--SECTION 3.1: ADAM'S ACTIONS-->
+        <!--Stand-->
+		<action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="stand"/>
+			<selection type="upper_body" state_id="default"/>
+		</action>
+        <!--Walk-->
+		<action id="walk" name="Walk" loop="Y" totalframe="24" enable="Y" is_motion="Y">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="walk"/>
+			<selection type="skeleton" state_id="walk"/>
+			<selection type="upper_body" state_id="walk"/>
+		</action>
+        <!--Run-->
+		<action id="run" name="Run" loop="Y" totalframe="20" enable="Y" is_motion="Y">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="run"/>
+			<selection type="skeleton" state_id="run"/>
+			<selection type="upper_body" state_id="run"/>
+		</action>
+        <!--Sit-->
+		<action id="sit" name="Sit" loop="Y" totalframe="1" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="sit"/>
+			<selection type="skeleton" state_id="sit"/>
+			<selection type="upper_body" state_id="sit"/>
+		</action>
+        <!--Lie down-->
+		<action id="lie" name="Lie down" loop="Y" totalframe="1" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="lie_down"/>
+			<selection type="upper_body" state_id="lie_down"/>
+		</action>
+        <!--Kneel down-->
+		<action id="kneel" name="Kneel down" loop="Y" totalframe="1" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="kneel_down"/>
+			<selection type="skeleton" state_id="kneel_down"/>
+			<selection type="upper_body" state_id="kneel_down"/>
+		</action>
+        <!--Crossed arms-->
+		<action id="xarms" name="Crossed arms" loop="Y" totalframe="1" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="crossed_arms"/>
+			<selection type="upper_body" state_id="crossed_arms"/>
+		</action>
+        <!--Excited / Cheers-->
+		<action id="excited" name="Excited / Cheers" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
+			<selection type="facial" facial_id="head_happy"/>
+			<selection type="lower_body" state_id="excited"/>
+			<selection type="skeleton" state_id="excited"/>
+			<selection type="upper_body" state_id="excited"/>
+		</action>
+        <!--Taunt-->
+		<action id="taunt" name="Taunt" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
+			<selection type="facial" facial_id="head_angry"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="taunt"/>
+			<selection type="upper_body" state_id="taunt"/>
+		</action>
+        <!--Chuckle-->
+		<action id="chuckle" name="Chuckle" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
+			<selection type="facial" facial_id="head_happy"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="chuckle"/>
+			<selection type="upper_body" state_id="chuckle"/>
+		</action>
+        <!--Point at-->
+		<action id="pt_at" name="Point at" loop="Y" totalframe="30" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_neutral"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="point_at"/>
+			<selection type="upper_body" state_id="point_at"/>
+		</action>
+        <!--Laugh-->
+		<action id="laugh" name="Laugh" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
+			<selection type="facial" facial_id="head_laugh"/>
+			<selection type="lower_body" state_id="laugh"/>
+			<selection type="skeleton" state_id="laugh"/>
+			<selection type="upper_body" state_id="laugh"/>
+		</action>
+        <!--Sad-->
+		<action id="sad" name="Sad" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
+			<selection type="facial" facial_id="head_sad"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="sad"/>
+			<selection type="upper_body" state_id="sad"/>
+		</action>
+        <!--Talk on phone-->
+		<action id="talk_phone" name="Talk on phone" loop="Y" totalframe="115" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_talk_a"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="talk_on_phone"/>
+			<selection type="upper_body" state_id="talk_on_phone"/>
+		</action>
+        <!--Dance-->
+		<action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_happy"/>
+			<selection type="lower_body" state_id="dance"/>
+			<selection type="skeleton" state_id="dance"/>
+			<selection type="upper_body" state_id="dance"/>
+		</action>
+        <!--Fearful-->
+		<action id="fearful" name="Fearful" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
+			<selection type="facial" facial_id="head_sad"/>
+			<selection type="lower_body" state_id="fearful"/>
+			<selection type="skeleton" state_id="fearful"/>
+			<selection type="upper_body" state_id="fearful"/>
+		</action>
+        <!--Talk-->
+		<action id="talk" name="Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
+			<selection type="facial" facial_id="head_talk_a"/>
+			<selection type="lower_body" state_id="default"/>
+			<selection type="skeleton" state_id="talk"/>
+			<selection type="upper_body" state_id="talk"/>
+		</action>
+
+        <!--SECTION 3.2: ADAM'S ASSET SKELETON-->
+        <component type="skeleton" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sprint" filename="sprint.swf"/>
+			<state id="punch" filename="punch.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="stand" filename="stand.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+
+        <!--SECTION 3.3: ADAM'S UPPER BODY ASSETS-->
+		<component type="upper_body" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_002" path="adam_002" name="adam_002" thumb="thumbnail.swf" display_order="20" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_003" path="adam_003" name="adam_003" thumb="thumbnail.swf" display_order="30" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_004" path="adam_004" name="adam_004" thumb="thumbnail.swf" display_order="40" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+        <component type="upper_body" id="adam_005" path="adam_005" name="adam_005" thumb="thumbnail.swf" display_order="50" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_006" path="adam_006" name="adam_006" thumb="thumbnail.swf" display_order="60" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_007" path="adam_007" name="adam_007" thumb="thumbnail.swf" display_order="70" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_008" path="adam_008" name="adam_008" thumb="thumbnail.swf" display_order="80" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_009" path="adam_009" name="adam_009" thumb="thumbnail.swf" display_order="90" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+
+        <!--SECTION 3.4: ADAM'S LOWER BODY ASSETS-->
+		<component type="lower_body" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_002" path="adam_002" name="adam_002" thumb="thumbnail.swf" display_order="20" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_003" path="adam_003" name="adam_003" thumb="thumbnail.swf" display_order="30" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_004" path="adam_004" name="adam_004" thumb="thumbnail.swf" display_order="40" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_005" path="adam_005" name="adam_005" thumb="thumbnail.swf" display_order="50" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_006" path="adam_006" name="adam_006" thumb="thumbnail.swf" display_order="60" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_007" path="adam_007" name="adam_007" thumb="thumbnail.swf" display_order="70" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_008" path="adam_008" name="adam_008" thumb="thumbnail.swf" display_order="80" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_010" path="adam_010" name="adam_010" thumb="thumbnail.swf" display_order="90" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_011" path="adam_011" name="adam_011" thumb="thumbnail.swf" display_order="100" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_012" path="adam_012" name="adam_012" thumb="thumbnail.swf" display_order="110" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_009" path="adam_009" name="adam_009" thumb="thumbnail.swf" display_order="120" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_013" path="adam_013" name="adam_013" thumb="thumbnail.swf" display_order="130" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_014" path="adam_014" name="adam_014" thumb="thumbnail.swf" display_order="140" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_a006" path="adam_a006" name="adam_a006" thumb="thumbnail.swf" display_order="150" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_a007" path="adam_a007" name="adam_a007" thumb="thumbnail.swf" display_order="160" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_a009" path="adam_a009" name="adam_a009" thumb="thumbnail.swf" display_order="170" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_a010" path="adam_a010" name="adam_a010" thumb="thumbnail.swf" display_order="110" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_a011" path="adam_a011" name="adam_a011" thumb="thumbnail.swf" display_order="180" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="adam_a012" path="adam_a012" name="adam_a012" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+        <component type="lower_body" id="adam_cat" path="adam_cat" name="adam_cat" thumb="thumbnail.swf" display_order="240" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+
+        <!--SECTION #: ROCKY'S LOWER BODY ASSETS-->
+		<component type="lower_body" id="rocky_001" path="rocky_001" name="rocky_001" thumb="thumbnail.swf" display_order="200" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="rocky_002" path="rocky_002" name="rocky_002" thumb="thumbnail.swf" display_order="210" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="rocky_a004" path="rocky_a004" name="rocky_a004" thumb="thumbnail.swf" display_order="220" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="lower_body" id="rocky_a005" path="rocky_a005" name="rocky_a005" thumb="thumbnail.swf" display_order="230" money="0" sharing="0" enable="Y">
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+
+
+		<component type="upper_body" id="adam_011" path="adam_011" name="adam_011" thumb="thumbnail.swf" display_order="100" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_012" path="adam_012" name="adam_012" thumb="thumbnail.swf" display_order="110" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_013" path="adam_013" name="adam_013" thumb="thumbnail.swf" display_order="120" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_010" path="adam_010" name="adam_010" thumb="thumbnail.swf" display_order="130" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_014" path="adam_014" name="adam_014" thumb="thumbnail.swf" display_order="140" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_015" path="adam_015" name="adam_015" thumb="thumbnail.swf" display_order="150" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_016" path="adam_016" name="adam_016" thumb="thumbnail.swf" display_order="160" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_017" path="adam_017" name="adam_017" thumb="thumbnail.swf" display_order="170" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_a006" path="adam_a006" name="adam_a006" thumb="thumbnail.swf" display_order="180" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_a007" path="adam_a007" name="adam_a007" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_a008" path="adam_a008" name="adam_a008" thumb="thumbnail.swf" display_order="200" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_a009" path="adam_a009" name="adam_a009" thumb="thumbnail.swf" display_order="210" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_a010" path="adam_a010" name="adam_a010" thumb="thumbnail.swf" display_order="120" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_a011" path="adam_a011" name="adam_a011" thumb="thumbnail.swf" display_order="220" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_a012" path="adam_a012" name="adam_a012" thumb="thumbnail.swf" display_order="230" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+		<component type="upper_body" id="adam_098" path="adam_098" name="adam_098" thumb="thumbnail.swf" display_order="240" money="0" sharing="0" enable="Y">
+			<state id="chuckle" filename="chuckle.swf"/>
+			<state id="crossed_arms" filename="crossed_arms.swf"/>
+			<state id="dance" filename="dance.swf"/>
+			<state id="default" filename="default.swf"/>
+			<state id="excited" filename="excited.swf"/>
+			<state id="fearful" filename="fearful.swf"/>
+			<state id="kneel_down" filename="kneel_down.swf"/>
+			<state id="laugh" filename="laugh.swf"/>
+			<state id="lie_down" filename="lie_down.swf"/>
+			<state id="point_at" filename="point_at.swf"/>
+			<state id="run" filename="run.swf"/>
+			<state id="sad" filename="sad.swf"/>
+			<state id="sit" filename="sit.swf"/>
+			<state id="talk" filename="talk.swf"/>
+			<state id="talk_on_phone" filename="talk_on_phone.swf"/>
+			<state id="taunt" filename="taunt.swf"/>
+			<state id="walk" filename="walk.swf"/>
+		</component>
+	</bodyshape>
+
+    <!--SECTION #: EARS-->
+    <component type="ear" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+    <component type="ear" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+    <component type="ear" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="ear" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+
+    <!--SECTION #: EYES-->
+    <component type="eye" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="201" path="201" name="201" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="202" path="202" name="202" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="203" path="203" name="203" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="204" path="204" name="204" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="205" path="205" name="205" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="206" path="206" name="206" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="103" path="103" name="103" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="102" path="102" name="102" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="101" path="101" name="101" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="104" path="104" name="104" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eye" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="asleep" filename="asleep.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="thinking" filename="thinking.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+
+    <!--SECTION #: EYEBROWS-->
+    <component type="eyebrow" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="105" path="105" name="105" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="106" path="106" name="106" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="107" path="107" name="107" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="108" path="108" name="108" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="103" path="103" name="103" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="102" path="102" name="102" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="101" path="101" name="101" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="104" path="104" name="104" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+	<component type="eyebrow" id="109" path="109" name="109" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="angry" filename="angry.swf"/>
+		<state id="cry" filename="cry.swf"/>
+		<state id="default" filename="default.swf"/>
+		<state id="disgusted" filename="disgusted.swf"/>
+		<state id="happy" filename="happy.swf"/>
+		<state id="sad" filename="sad.swf"/>
+		<state id="schemeing" filename="schemeing.swf"/>
+		<state id="shock" filename="shock.swf"/>
+		<state id="sick" filename="sick.swf"/>
+		<state id="surprised" filename="surprised.swf"/>
+		<state id="talk" filename="talk.swf"/>
+		<state id="yawn" filename="yawn.swf"/>
+	</component>
+
+    <!--SECTION #: FACE SHAPES-->
+    <component type="faceshape" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="020" path="020" name="020" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="019" path="019" name="019" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="017" path="017" name="017" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="018" path="018" name="018" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="014" path="014" name="014" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="021" path="021" name="021" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="016" path="016" name="016" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="faceshape" id="015" path="015" name="015" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+
+    <!--SECTION #: GLASSES-->
+    <component type="glasses" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="glasses" id="016" path="016" name="016" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+
+    <!--SECTION #: NOSES-->
+    <component type="nose" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="020" path="020" name="020" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="019" path="019" name="019" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="017" path="017" name="017" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="018" path="018" name="018" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="014" path="014" name="014" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="024" path="024" name="024" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="021" path="021" name="021" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="016" path="016" name="016" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="015" path="015" name="015" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+    <component type="nose" id="027" path="027" name="027" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="025" path="025" name="025" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="026" path="026" name="026" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="028" path="028" name="028" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="029" path="029" name="029" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="nose" id="030" path="030" name="030" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+
+    <!--SECTION #: BEARDS-->
+	<component type="beard" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+    <component type="beard" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="beard" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="beard" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+    <component type="beard" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="beard" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="beard" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+
+    <!--SECTION #: MUSTACHES-->
+	<component type="mustache" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+    <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="mustache" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="mustache" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="mustache" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="mustache" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+
+    <!--HAIR STYLES-->
+    <component type="hair" id="084" path="084" name="084" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="070" path="070" name="070" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="081" path="081" name="081" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="080" path="080" name="080" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="064" path="064" name="064" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="079" path="079" name="079" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="075" path="075" name="075" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="072" path="072" name="072" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="078" path="078" name="078" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="068" path="068" name="068" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="088" path="088" name="088" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="067" path="067" name="067" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="086" path="086" name="086" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="065" path="065" name="065" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="076" path="076" name="076" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="069" path="069" name="069" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="087" path="087" name="087" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="085" path="085" name="085" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="063" path="063" name="063" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="083" path="083" name="083" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="074" path="074" name="074" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="071" path="071" name="071" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="073" path="073" name="073" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="066" path="066" name="066" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="082" path="082" name="082" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="077" path="077" name="077" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="089" path="089" name="089" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<!--
+	<component type="hair" id="090" path="090" name="090" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="091" path="091" name="091" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	-->
+	<component type="hair" id="092" path="092" name="092" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="093" path="093" name="093" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="094" path="094" name="094" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="095" path="095" name="095" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="096" path="096" name="096" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="097" path="097" name="097" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="100" path="100" name="100" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="101" path="101" name="101" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="102" path="102" name="102" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="103" path="103" name="103" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="106" path="106" name="106" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="107" path="107" name="107" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="108" path="108" name="108" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+
+    <!--SECTION #: FACE DECORATIONS-->
+    <component type="facedecoration" id="013" path="013" name="013" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="014" path="014" name="014" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="015" path="015" name="015" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="016" path="016" name="016" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="017" path="017" name="017" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="018" path="018" name="018" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="019" path="019" name="019" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="020" path="020" name="020" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="021" path="021" name="021" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="024" path="024" name="024" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="025" path="025" name="025" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="026" path="026" name="026" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="027" path="027" name="027" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="028" path="028" name="028" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="029" path="029" name="029" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="030" path="030" name="030" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="031" path="031" name="031" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="032" path="032" name="032" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<!--
+	<component type="facedecoration" id="033" path="033" name="033" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	-->
+	<component type="facedecoration" id="034" path="034" name="034" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="035" path="035" name="035" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="036" path="036" name="036" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="037" path="037" name="037" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="038" path="038" name="038" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="039" path="039" name="039" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="040" path="040" name="040" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="041" path="041" name="041" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="042" path="042" name="042" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="043" path="043" name="043" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="044" path="044" name="044" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="045" path="045" name="045" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="046" path="046" name="046" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="047" path="047" name="047" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="048" path="048" name="048" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="049" path="049" name="049" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="050" path="050" name="050" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="051" path="051" name="051" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="052" path="052" name="052" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="053" path="053" name="053" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="054" path="054" name="054" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="055" path="055" name="055" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="056" path="056" name="056" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="057" path="057" name="057" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<!--
+	<component type="facedecoration" id="058" path="058" name="058" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	-->
+	<component type="facedecoration" id="059" path="059" name="059" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="060" path="060" name="060" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="061" path="061" name="061" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="062" path="062" name="062" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="063" path="063" name="063" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="064" path="064" name="064" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="065" path="065" name="065" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="066" path="066" name="066" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="067" path="067" name="067" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="068" path="068" name="068" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="069" path="069" name="069" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="070" path="070" name="070" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="071" path="071" name="071" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="072" path="072" name="072" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="073" path="073" name="073" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="074" path="074" name="074" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="075" path="075" name="075" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="076" path="076" name="076" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="077" path="077" name="077" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+    
+<!--YOU HAVE REACHED THE BOTTOM OF THE WHOLE XML FILE!!!-->
+</cc_theme_savvie>
